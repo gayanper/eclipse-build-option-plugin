@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.debug.ui.launchConfigurationTabs">
+      <tab
+            class="org.gap.eclipse.plugins.buildopts.core.AutoBuildTab"
+            group="org.eclipse.m2e.LaunchConfigurationTabGroup"
+            id="org.gap.eclipse.plugins.buildopts.autobuildtab"
+            name="Auto Build">
+         <placement
+               after="org.eclipse.debug.ui.environmentTab">
+         </placement>
+      </tab>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="org.gap.eclipse.plugins.buildopts.core.PluginLoader">
+      </startup>
+   </extension>
+
+
+
+</plugin>
