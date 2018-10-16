@@ -13,7 +13,7 @@ import org.osgi.framework.BundleContext;
 public class AutoBuildPlugin extends AbstractUIPlugin {
 
 	// The plug-in ID
-	public static final String PLUGIN_ID = "build-option-plugin.core";
+	public static final String PLUGIN_ID = "org.gap.eclipse.plugins.buildoptionplugin.core";
 
 	// The shared instance
 	private static AutoBuildPlugin plugin;
