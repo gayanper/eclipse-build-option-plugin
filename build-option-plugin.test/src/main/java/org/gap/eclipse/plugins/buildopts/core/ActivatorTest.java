@@ -13,7 +13,7 @@ public class ActivatorTest {
 
 	@Test
 	public void veryStupidTest() {
-		assertEquals("org.gap.eclipse.plugins.buildoptionplugin.core", AutoBuildPlugin.PLUGIN_ID);
+		assertEquals("build-option-plugin.core",AutoBuildPlugin.PLUGIN_ID);
 		assertTrue("Plugin should be started", AutoBuildPlugin.getDefault().started);
 	}
 }

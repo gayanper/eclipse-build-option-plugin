@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.gap.eclipse.plugins.buildoptionplugin.feature.source_0.0.0.jar" id="org.gap.eclipse.plugins.buildoptionplugin.feature.source" version="0.0.0">
-      <category name="build-option-plugin Developer Resources"/>
+   <feature url="features/build-option-plugin.feature_0.0.0.jar" id="build-option-plugin.feature" version="0.0.0">
+    <category name="build-option-plugin"/>
    </feature>
-   <feature url="features/org.gap.eclipse.plugins.buildoptionplugin.feature_0.0.0.jar" id="org.gap.eclipse.plugins.buildoptionplugin.feature" version="0.0.0">
-      <category name="build-option-plugin"/>
+   <feature url="features/build-option-plugin.feature.source_0.0.0.jar" id="build-option-plugin.feature.source" version="0.0.0">
+    <category name="build-option-plugin Developer Resources"/>
    </feature>
 </site>

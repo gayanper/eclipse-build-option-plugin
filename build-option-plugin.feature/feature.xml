@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.gap.eclipse.plugins.buildoptionplugin.feature"
-      label="Build Option Plugin Feature"
+      id="build-option-plugin.feature"
+      label="build-option-plugin Feature"
       version="0.0.1.qualifier">
 
    <description url="http://www.example.com/description">
@@ -22,7 +22,7 @@
    </url>
 
    <plugin
-         id="org.gap.eclipse.plugins.buildoptionplugin.core"
+         id="build-option-plugin.core"
          download-size="0"
          install-size="0"
          version="0.0.0"

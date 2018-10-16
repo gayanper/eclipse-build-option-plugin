@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Build Option Plugin Core Plugin
-Bundle-SymbolicName: org.gap.eclipse.plugins.buildoptionplugin.core;singleton:=true
+Bundle-Name: build-option-plugin Core Plugin
+Bundle-SymbolicName: build-option-plugin.core;singleton:=true
 Bundle-Version: 0.0.1.qualifier
 Bundle-Activator: org.gap.eclipse.plugins.buildopts.core.AutoBuildPlugin
 Require-Bundle: org.eclipse.ui,
@@ -13,4 +13,3 @@ Require-Bundle: org.eclipse.ui,
  com.google.guava;bundle-version="15.0.0"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Export-Package: org.gap.eclipse.plugins.buildopts.core
