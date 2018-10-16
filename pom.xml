@@ -89,6 +89,7 @@
             <argLine>${tycho.test.jvmArgs}</argLine>
             <!-- kill test JVM if tests take more than 1 minute (60 seconds) to finish -->
             <forkedProcessTimeoutInSeconds>60</forkedProcessTimeoutInSeconds>
+            <skipTests>true</skipTests>
           </configuration>
         </plugin>
       </plugins>
